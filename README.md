@@ -1,35 +1,47 @@
 Smart ATS for Resumes 📄🤖
+
 This project is a Smart Application Tracking System (ATS) designed to analyze resumes and compare them against job descriptions (JD). It provides detailed insights, including match percentages, missing keywords, and profile summaries to assist in optimizing resumes for better job application outcomes.
 
 Key Features
+
 ✨ Streamlit Interface: Intuitive user interface built with Streamlit for a smooth and interactive experience.
 
 🔍 Google Generative AI Integration: Leverages Google Generative AI (Gemini) to evaluate resumes and provide personalized feedback.
 
 📄 PDF Resume Support: Accepts resumes in PDF format, processed using the PyPDF2 library for text extraction.
+
  Setup 🚀
-1. Install Dependencies: 
+ 
+1. Install Dependencies:
+   
    Ensure Python is installed. Install the necessary Python packages via:
    pip install -r requirements.txt
 
-2. Google API Key: 
+3. Google API Key:
+   
    Obtain your Google API key and set it as an environment variable or store it in the `.streamlit/secrets.toml` file.
 
-3. Run the Application: 
+5. Run the Application:
+   
    Launch the app by running:
    streamlit run app.py
 
  Usage 📋
-1. Paste Job Description: 
+ 
+1. Paste Job Description:
+   
    Enter the job description in the designated text field.
 
-2. Upload Resumes: 
+3. Upload Resumes:
+   
    Upload one or more resumes in PDF format using the file uploader.
 
-3. Submit: 
+5. Submit:
+   
    Hit the submit button to analyze the resumes against the job description.
 
-4. Review Results: 
+7. Review Results:
+   
    The app displays ranked resumes with match percentages and a profile summary in a table format. 
 
 Feel free to customize further if you want more specific emojis or changes!
