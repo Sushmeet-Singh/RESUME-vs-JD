@@ -1,8 +1,8 @@
-Smart ATS for Resumes 📄🤖
+Smart ATS for Resumes using Gemini📄🤖
 
 This project is a Smart Application Tracking System (ATS) designed to analyze resumes and compare them against job descriptions (JD). It provides detailed insights, including match percentages, missing keywords, and profile summaries to assist in optimizing resumes for better job application outcomes.
 
-Key Features
+Key Features 
 
 ✨ Streamlit Interface: Intuitive user interface built with Streamlit for a smooth and interactive experience.
 
@@ -52,4 +52,5 @@ Create a new branch for your feature or fix.
 Submit a pull request with your changes.
 
 Contact  📞 
+
 Email: sushmeetsinghnandra@gmail.com
